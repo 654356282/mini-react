@@ -19,9 +19,9 @@ import ReactDOM from "./react/react-dom";
 // );
 
 const App = () => {
-  return <div>app</div>
+  return <div><span>app</span></div>
 }
 
-const container(document.getElementById('root'))
+const container = (document.getElementById('root'))
 ReactDOM.createRoot(container).render(<App/>)
 
